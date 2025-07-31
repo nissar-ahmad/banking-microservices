@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-service
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nissar-ahmad/config-repo
+          clone-on-start: true
+          default-label: main  # or your branch name
+          search-paths:
+            - '*'
+
+server:
+  port: 8888
