@@ -48,7 +48,7 @@ banking-microservices/
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/banking-microservices.git
+git clone https://github.com/nissar-ahmad/banking-microservices.git
 cd banking-microservices
 ```
 
